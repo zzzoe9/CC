@@ -1,0 +1,314 @@
+<html>
+<head>
+    <title>Chinese Eight Cuisine
+    </title>
+<link rel="icon" href="%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191027233842.jpg">
+    <link
+    rel="stylesheet" type="text/css" href="chinese%20food.css">
+    </head>
+    
+  <style>
+    
+        a{text-align:center}
+
+body{
+ font-family:Times New Roman,serif;
+ font-weight:400;
+ background-repeat: no-repeat;
+    background-size: cover;
+ }
+        
+ol{margin:0;padding:0;list-style-type:none}
+
+.menu{
+ width:100%;
+ padding:0 16px;
+ display:block;
+ position:relative
+ }
+
+.menu > ol:first-child{
+ width:100%;
+ display:flex;
+ position:relative;
+ flex-flow:row wrap;
+ justify-content:center
+ }
+
+.menu-item{
+ width:150px;
+ position:relative;
+ perspective:100%;
+ cursor:pointer
+ }
+
+.menu-item a{
+ width:100%;
+ padding:16px 0;
+ display:block;
+ position:relative;
+ color:#604B4B;
+ border-radius:4px;
+ transition:all .5s ease;
+ transform-style:preserve-3d
+ }
+
+.menu-item a:before{
+ width:100%;
+ padding:16px 0;
+ display:block;
+ position:absolute;
+ color:#fff;
+ border-radius:4px
+ }
+
+.menu > ol:first-child > .menu-item{display:block}
+
+.menu > ol:first-child > .menu-item > a
+ {background:#fff; box-shadow:0 8px 6px -6px #C9B6B6}
+
+.menu > ol:first-child > .menu-item:nth-of-type(2) > a,
+.menu > ol:first-child > .menu-item:nth-of-type(4) > a
+ {border-left:1px solid #fff;border-right:1px solid #fff}
+
+.menu > ol:first-child > .menu-item > a:before
+ {background-color: #F1E4E4;bottom:90%;transform:rotateX(-90deg) translate3d(0,0,75px)}
+ 
+
+.menu > ol:first-child > .menu-item:nth-of-type(1) > a:before{content:"HOME"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > a:before{content:"MAP"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > a:before{content:"ABOUT"}
+.menu > ol:first-child > .menu-item:nth-of-type(4) > a:before{content:"CONTACT US"}
+.menu > ol:first-child > .menu-item:nth-of-type(5) > a:before{content:"Q & A"}
+
+.menu > ol:first-child > .menu-item:nth-of-type(3) > a:after,
+.menu > ol:first-child > .menu-item:nth-of-type(4) > a:after{
+ content:"";
+ width:100%;
+ padding:30px 0 0 0;
+ top:0;
+ display:block;
+ position:absolute;
+ color:#C9B6B6;
+ font-size:20px;
+ text-align:center
+ }
+
+.menu > ol:first-child > .menu-item:hover > a{transform:rotateX(90deg)}
+
+.menu > ol:first-child > .menu-item:nth-of-type(3):hover > a:after,
+.menu > ol:first-child > .menu-item:nth-of-type(4):hover > a:after
+ {content:;color:#000;transform:rotateX(-90deg) translate3d(0,0,75px)}
+
+.sub-menu{
+ background:#fff;
+ width:100%;
+ top:51px;
+ display:none;
+ position:absolute;
+ z-index:99;
+ border-top:1px solid 
+ }
+
+.sub-menu > .menu-item:nth-of-type(1){animation:fadein-down .5s .2s ease both}
+.sub-menu > .menu-item:nth-of-type(2){animation:fadein-down .7s .2s ease both}
+.sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+      
+
+
+@keyframes fadein-down{
+ from{display:none;opacity:0;transform:translateY(-10px)}
+ to{display:block;opacity:1;transform:translateY(0)}
+ }
+
+.sub-menu > .menu-item > a{background-color: #F1E4E4}
+
+.sub-menu > .menu-item:nth-of-type(2) > a
+ {border-top:1px solid #fff;border-bottom:1px solid #fff}
+
+.sub-menu > .menu-item > a:before
+ {background:#C9B6B6;top:0}
+
+
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item > a:before{transform:rotateY(-90deg) translate3d(0,0,75px)}
+        
+        
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(1) > a:before{content:"LU"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(2) > a:before{content:"CHUAN"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(3) >
+a:before{content:"YUE"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(4) > a:before{content:"SUE"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(5) > a:before{content:"ZHE"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(6) > a:before{content:"MIN"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(7) > a:before{content:"XIANG"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(8) > a:before{content:"HUI"}
+        
+        
+        
+        
+        
+        
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:hover > a{transform:rotateY(90deg)}
+
+.menu > ol:first-child > .menu-item:nth-of-type(4) > .sub-menu > .menu-item > a:before{transform:rotateY(90deg) translate3d(0,0,75px)}
+.menu > ol:first-child > .menu-item:nth-of-type(4) > .sub-menu > .menu-item:hover > a{transform:rotateY(-90deg)}
+
+.menu > ol:first-child > .menu-item:hover > .sub-menu{display:block}
+
+@media screen and (min-width:321px) and (max-width:799px){
+ .menu{width:320px;margin:auto}
+ }
+
+@media (max-width:799px){
+ .menu > ol:first-child > .menu-item{width:100%}
+ .menu > ol:first-child > .menu-item > a{box-shadow:none}
+ 
+ .menu > ol:first-child > .menu-item:nth-of-type(2) > a,
+ .menu > ol:first-child > .menu-item:nth-of-type(4) > a
+  {border:1px solid #fff;border-left:none;border-right:none}
+ 
+ .sub-menu > .menu-item{margin:auto}
+ }
+    
+    
+    </style>
+    
+ 
+    
+<body style="background-image: url(https://cdn.pixabay.com/photo/2017/08/10/02/05/tiles-shapes-2617112__480.jpg); background-size: cover；font-family:fantasy;color:white;">
+    
+<nav class="menu">
+ <ol>
+  <li class="menu-item"><a href="index.html">HOME</a ></li>
+  <li class="menu-item"><a href="map.html">MAP</a ></li>
+  <li class="menu-item"><a href="">ABOUT</a >
+   <ol class="sub-menu">
+    <li class="menu-item"><a href="fromer.html">LU</a ></li>
+       <li class="menu-item"><a href="fromer.html">CHUAN</a ></li>
+       <li class="menu-item"><a href="fromer.html">YUE</a ></li>
+       <li class="menu-item"><a href="fromer.html">SUE</a ></li>
+       <li class="menu-item"><a href="latter.html">ZHE</a ></li>
+       <li class="menu-item"><a href="latter.html">MIN</a ></li>
+       <li class="menu-item"><a href="latter.html">XAING</a ></li>
+    <li class="menu-item"><a href="latter.html">HUI</a ></li>
+   </ol>
+  </li>
+  <li class="menu-item"><a href="contact%20us.html">CONTACT US</a >
+  </li>
+  <li class="menu-item"><a href="Q&A.html">Q & A</a ></li>
+ </ol>
+</nav>
+   
+    
+    
+    <section style="-webkit-box-direction: normal;
+box-sizing: inherit;
+margin-top: 0;
+font-family: Stanford,Source Serif Pro,Georgia,Times,Times New Roman,serif!important;
+font-style: normal;
+font-weight: 400;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+letter-spacing: 0;
+font-variant-ligatures: discretionary-ligatures;
+-webkit-font-smoothing: antialiased;
+z-index: 50;
+margin-left: 0;
+height: auto;
+display: block;
+backface-visibility: hidden;
+padding: 0;
+transition: font-size .5s ease;
+width: auto;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 3.8146972656em;
+top: unset;
+bottom: 25%;
+margin-bottom: 0;
+text-shadow: 0 0 30px rgba(0,0,0,.7);
+color: #fff;
+position: fixed;">
+    
+</section>
+     
+    
+<div class="colum">
+    
+
+        <i><h1>Wondering</h1>
+</i>
+     <h2>
+    
+    We will answer your questions once a week and share some great questions with you.</h2>
+    
+    <br>
+    
+   <form><h3>
+      Your Email:<br>
+       <input type="text" name="your email"><br><br>
+        Your Wondering:<br>
+       <input type="text" name="your wondering" style="width:300px;height:150px"><br>
+       <br>
+        <button>send to us
+       </button>
+       </h3>
+   </form>
+
+    </div>
+  
+  
+    
+<div class="column">
+    <i><h2>Question & Answer</h2>
+    </i>
+
+    <div  class="bbb"> 
+ <p1><h2>
+     Q1: What are some new dishes appeared nowadays?<br>
+     A: Canteens in Chinese universities are enthusiastic about creating original dishes. Sometimes they even mix fruits and meat together.<br>
+     <br>
+     <img src="http://p3.pstatp.com/large/18a10006d4eb74a3a812"width=385height=215>
+     <br>
+     <br>
+     Q2: Which area porvides a better flavor, South or North?<br>
+     A: It depends on personal interests. Some prefer sweet and sour flavor, they may like the cuisine  from South part better.
+     <br><br>
+     Q3: Is there any weird ingredient used in chinese dishes?<br>
+     A: Yes. For example, we use insects as an ingredient for BBQ. Because of the difference between Western and Eastern countries, something we treat like common dishes foreigners think they are creepy it is just the same as we can not bare the taste of some cheeses.
+     <br><br>
+     Q4: Does Chinese have many dietary rules?<br>
+     A: Yes. Here is a vedio about the Eating Habits in Asian.<br><br>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/s62mzPfLkfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+     
+     </h2>
+ </p1>
+        </div>
+
+</div>  
+ 
+    
+    
+    
+    
+    
+</body>    
+    
+    
+    
+
+
+
+
+</html>

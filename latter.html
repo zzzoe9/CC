@@ -1,0 +1,396 @@
+<html>
+   <head> 
+    <title>latter</title>
+    
+    
+<link rel="icon" href="%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191027233842.jpg">
+    
+     <link rel="stylesheet" href="index.css">
+   
+     
+  <h1 style="border: 10px double; font-family: fantasy; border-color: aliceblue"> LATTER </h1>
+   
+       
+     <meta name="viewport"
+     content="width=device-width, initial-scale=1">
+     <style>
+     
+         *{
+             box-sizing: border-box;
+
+         }
+     
+     
+         .column{
+            float:left;
+                width:25%;
+                padding:10px;
+             height:345px;}
+         .row:{
+             content:"";
+             display:table;
+             clear:both;
+             }
+         
+       
+     body{
+         background-image:url(https://cdn.pixabay.com/photo/2016/11/08/05/51/agriculture-1807576__480.jpg);
+         background-size:cover;
+         font-family:fantasy;
+         color:white;
+        
+        }
+    </style>
+    
+    
+    
+     
+    
+      <style type="text/css">
+    
+        a{text-align:center}
+
+body{
+ font-family:Times New Roman,serif;
+ font-weight:400;
+ background-repeat: no-repeat;
+    background-size: cover;
+ }
+        
+ol{margin:0;padding:0;list-style-type:none}
+
+.menu{
+ width:100%;
+ padding:0 16px;
+ display:block;
+ position:relative
+ }
+
+.menu > ol:first-child{
+ width:100%;
+ display:flex;
+ position:relative;
+ flex-flow:row wrap;
+ justify-content:center
+ }
+
+.menu-item{
+ width:150px;
+ position:relative;
+ perspective:100%;
+ cursor:pointer
+ }
+
+.menu-item a{
+ width:100%;
+ padding:16px 0;
+ display:block;
+ position:relative;
+ color:#000;
+ border-radius:4px;
+ transition:all .5s ease;
+ transform-style:preserve-3d
+ }
+
+.menu-item a:before{
+ width:100%;
+ padding:16px 0;
+ display:block;
+ position:absolute;
+ color:#fff;
+ border-radius:4px
+ }
+
+.menu > ol:first-child > .menu-item{display:block}
+
+.menu > ol:first-child > .menu-item > a
+ {background:#8ED649; box-shadow:0 8px 6px -6px #C9B6B6}
+
+.menu > ol:first-child > .menu-item:nth-of-type(2) > a,
+.menu > ol:first-child > .menu-item:nth-of-type(4) > a
+ {border-left:1px solid #fff;border-right:1px solid #fff}
+
+.menu > ol:first-child > .menu-item > a:before
+ {background-color: #B4EC7E;bottom:90%;transform:rotateX(-90deg) translate3d(0,0,75px)}
+ 
+
+.menu > ol:first-child > .menu-item:nth-of-type(1) > a:before{content:"HOME"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > a:before{content:"MAP"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > a:before{content:"ABOUT"}
+.menu > ol:first-child > .menu-item:nth-of-type(4) > a:before{content:"CONTACT US"}
+.menu > ol:first-child > .menu-item:nth-of-type(5) > a:before{content:"Q & A"}
+
+.menu > ol:first-child > .menu-item:nth-of-type(3) > a:after,
+.menu > ol:first-child > .menu-item:nth-of-type(4) > a:after{
+ content:"";
+ width:100%;
+ padding:30px 0 0 0;
+ top:0;
+ display:block;
+ position:absolute;
+ color:#;
+ font-size:20px;
+ text-align:center
+ }
+
+.menu > ol:first-child > .menu-item:hover > a{transform:rotateX(90deg)}
+
+.menu > ol:first-child > .menu-item:nth-of-type(3):hover > a:after,
+.menu > ol:first-child > .menu-item:nth-of-type(4):hover > a:after
+ {content:;color:#000;transform:rotateX(-90deg) translate3d(0,0,75px)}
+
+.sub-menu{
+ background:#fff;
+ width:100%;
+ top:51px;
+ display:none;
+ position:absolute;
+ z-index:99;
+ border-top:1px solid 
+ }
+
+.sub-menu > .menu-item:nth-of-type(1){animation:fadein-down .5s .2s ease both}
+.sub-menu > .menu-item:nth-of-type(2){animation:fadein-down .7s .2s ease both}
+.sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+        .sub-menu > .menu-item:nth-of-type(3){animation:fadein-down .9s .2s ease both}
+
+      
+
+
+@keyframes fadein-down{
+ from{display:none;opacity:0;transform:translateY(-10px)}
+ to{display:block;opacity:1;transform:translateY(0)}
+ }
+
+.sub-menu > .menu-item > a{background-color: A3E663}
+
+.sub-menu > .menu-item:nth-of-type(2) > a
+ {border-top:1px solid #fff;border-bottom:1px solid #fff}
+
+.sub-menu > .menu-item > a:before
+ {background:#B4EC7E;top:0}
+
+
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item > a:before{transform:rotateY(-90deg) translate3d(0,0,75px)}
+        
+        
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(1) > a:before{content:"LU"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(2) > a:before{content:"CHUAN"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(3) >
+a:before{content:"YUE"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(4) > a:before{content:"SUE"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(5) > a:before{content:"ZHE"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(6) > a:before{content:"MIN"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(7) > a:before{content:"XIANG"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(8) > a:before{content:"HUI"}
+        
+        
+        
+        
+        
+        
+.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:hover > a{transform:rotateY(90deg)}
+
+.menu > ol:first-child > .menu-item:nth-of-type(4) > .sub-menu > .menu-item > a:before{transform:rotateY(90deg) translate3d(0,0,75px)}
+.menu > ol:first-child > .menu-item:nth-of-type(4) > .sub-menu > .menu-item:hover > a{transform:rotateY(-90deg)}
+
+.menu > ol:first-child > .menu-item:hover > .sub-menu{display:block}
+
+@media screen and (min-width:321px) and (max-width:799px){
+ .menu{width:320px;margin:auto}
+ }
+
+@media (max-width:799px){
+ .menu > ol:first-child > .menu-item{width:100%}
+ .menu > ol:first-child > .menu-item > a{box-shadow:none}
+ 
+ .menu > ol:first-child > .menu-item:nth-of-type(2) > a,
+ .menu > ol:first-child > .menu-item:nth-of-type(4) > a
+  {border:1px solid #fff;border-left:none;border-right:none}
+ 
+ .sub-menu > .menu-item{margin:auto}
+ }
+    
+    
+    </style>
+    
+    </head>
+    
+<body>
+    
+    <nav class="menu">
+ <ol>
+  <li class="menu-item"><a href="index.html">HOME</a ></li>
+  <li class="menu-item"><a href="map.html">MAP</a ></li>
+  <li class="menu-item"><a href="">ABOUT</a >
+   <ol class="sub-menu">
+    <li class="menu-item"><a href="fromer.html">LU</a ></li>
+       <li class="menu-item"><a href="fromer.html">CHUAN</a ></li>
+       <li class="menu-item"><a href="fromer.html">YUE</a ></li>
+       <li class="menu-item"><a href="fromer.html">SUE</a ></li>
+       <li class="menu-item"><a href="latter.html">ZHE</a ></li>
+       <li class="menu-item"><a href="latter.html">MIN</a ></li>
+       <li class="menu-item"><a href="latter.html">XAING</a ></li>
+    <li class="menu-item"><a href="latter.html">HUI</a ></li>
+   </ol>
+  </li>
+  <li class="menu-item"><a href="contact%20us.html">CONTACT </a >
+  </li>
+  <li class="menu-item"><a href="Q&A.html">Q & A</a ></li>
+ </ol>
+</nav>
+   
+    
+    
+    <section style="-webkit-box-direction: normal;
+box-sizing: inherit;
+margin-top: 0;
+font-family: Stanford,Source Serif Pro,Georgia,Times,Times New Roman,serif!important;
+font-style: normal;
+font-weight: 400;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+letter-spacing: 0;
+font-variant-ligatures: discretionary-ligatures;
+-webkit-font-smoothing: antialiased;
+z-index: 50;
+margin-left: 0;
+height: auto;
+display: block;
+backface-visibility: hidden;
+padding: 0;
+transition: font-size .5s ease;
+width: auto;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 3.8146972656em;
+top: unset;
+bottom: 25%;
+margin-bottom: 0;
+text-shadow: 0 0 30px rgba(0,0,0,.7);
+color: #fff;
+position: fixed;">
+    
+
+        
+    </section>
+     
+     
+     </body>
+     
+    
+    
+    <body>
+        <p1>
+   <div class="row">
+    
+    <div class="column" style="background-color:358108" >
+        <h2>Hui</h2>
+   <p>It has the taste of spicy mainly. Famous for the techniques of cooking, stewing and steaming; the fine use of heavy oil, heavy color, heavy fire. Heavy fire is always, its unique focus reflected in good at cooking, stewing, smoking, steaming Kungfu dishes, different dishes use different fire-control technology, forming crisp, tender, fragrant, fresh unique flavor, which reflect the characteristics of the Hui style is sliding, stewing and smoked the most.
+    <br/></p>
+       
+       </div>
+    
+    
+    <div class="column" style="background-color:4A9E18">
+        <h2>Zhe</h2>
+   <p>Light taste.Small and exquisite dishes, , the dishes are delicious, tender, crisp and crisp.Use  rice wine seasoning.Rich cooking techniques, especially in cooking seafood and river fresh has its own unique.Taste focus on fresh crisp, keep raw materials and true flavor.Dishes form exquisite, exquisite, elegant and elegant.In there,the north tastes sweet, the west tastes spicy, the southeast tastes salty.</p>
+       
+       </div><div class="column" style="background-color:62BC2C">
+        <h2>Xiang</h2>
+   <p>The flavor is hot and spicy, the variety is various. For color and lustre, they have heavy concentration. it also has s practical price. It brings the spiciness, freshness and tenderness to the gustation. Attach great importance to the collocation of raw materials, taste mutual penetration. Hunan has the  cuisine which is especially hot and sour. Comparing to others, Hunan cuisine prefers slow simmer and original flavor.</p>
+       </div><div class="column" style="background-color:79CD47">
+        <h2>MIn</h2>
+   <p>The flavor can be fresh and fragrant. Especially "sweet", "taste" are imported, its fresh, and alcoholic, meat fragrance, few grease style. Three characteristics, first is longer than red sauce seasoning, second is longer than making soup, third is good at using sugar and vinegar.</p>
+       <br/>
+       </div>  
+    </div>
+    
+  <br/>
+   
+        </p1>   
+      <br/>
+        
+        
+        
+        
+        
+           <style type="text/css">
+                        <!--
+                        #demo { overflow:hidden;
+                        background: #359700;
+                
+                        overflow:hidden;
+                        border: 2px dashed #CCC;
+                        width: 1419px;
+                        }
+                        #demo img {
+                        border: 2px solid #945814;
+                        }
+                        #indemo {
+                        float: left;
+                        width: 800%;
+                        }
+                        #demo1 {
+                        float: left;
+                        }
+                        #demo2 {
+                        float: left;
+                        }
+                        -->
+                        </style>
+                        <div id="demo">
+                        <div id="indemo">
+                        <div id="demo1">
+                       
+                     
+                             <img src="https://image.shutterstock.com/image-photo/chinese-hunan-cuisine-fish-head-260nw-1101045515.jpg"/>
+                             <img src="https://image.shutterstock.com/image-photo/hunan-chicken-black-bowl-dark-260nw-1518133232.jpg"/>
+                             <img src="https://image.shutterstock.com/image-photo/stir-fried-dish-bamboo-bell-260nw-1289854054.jpg"/>
+                             <img src="https://image.shutterstock.com/image-photo/homemade-asian-vegeterian-potstickers-soy-260nw-134661824.jpg"/>
+                             <img src="https://image.shutterstock.com/image-photo/udon-stirfry-noodles-chicken-meat-260nw-580411846.jpg"/>
+                            
+                            
+                           
+                    </div>
+                        <div id="demo2"></div>
+                        </div>
+                        </div>
+    <script>
+                        <!--
+                        var speed=20; 
+                        var tab=document.getElementById("demo");
+                        var tab1=document.getElementById("demo1");
+                        var tab2=document.getElementById("demo2");
+                        tab2.innerHTML=tab1.innerHTML;
+                        function Marquee(){
+                        if(tab2.offsetWidth-tab.scrollLeft<=0)
+                        tab.scrollLeft-=tab1.offsetWidth
+                        else{
+                        tab.scrollLeft++;
+                        }
+                        }
+                        var MyMar=setInterval(Marquee,speed);
+                        tab.onmouseover=function() {clearInterval(MyMar)};
+                        tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+                        -->
+                        </script> 
+                      
+         
+         
+      </body>
+     </html>
+     
+     
+     
+     
+ 
